@@ -51,7 +51,7 @@ namespace l33tc0d3cpp
 		vector<int> twoSum(vector<int>& nums, int target) {
 			unordered_map<int, int> seen{};
 
-			for (int i = 0; i < nums.size(); i++)
+			for (int i = 0; i < static_cast<int>(nums.size()); i++)
 			{
 				if (auto found = seen.find(target - nums[i]); found != seen.end())
 				{

@@ -70,7 +70,7 @@ namespace l33tc0d3cpp
 
 			for (auto&& email : emails)
 			{
-				for (int i = 0; i < email.length(); i++)
+				for (int i = 0; i < static_cast<int>(email.length()); i++)
 				{
 					if (email[i] == '.')
 					{
