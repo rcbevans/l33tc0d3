@@ -39,24 +39,25 @@ namespace l33tc0d3cpp
 		//	unordered_map<int, int> seen{};
 		//	for (int i = 0; i < nums.size(); i++)
 		//	{
-		//		seen.emplace(nums[i], i);
 		//		auto found = seen.find(target - nums[i]);
-		//		if (found != seen.end() && found->second != i)
+		//		if (found != seen.end())
 		//		{
 		//			return { found->second, i };
 		//		}
+		//		seen.emplace(nums[i], i);
 		//	}
 		//}
 
 		vector<int> twoSum(vector<int>& nums, int target) {
 			unordered_map<int, int> seen{};
+
 			for (int i = 0; i < nums.size(); i++)
 			{
-				seen.emplace(nums[i], i);
-				if (auto found = seen.find(target - nums[i]); found != seen.end() && found->second != i)
+				if (auto found = seen.find(target - nums[i]); found != seen.end())
 				{
 					return { found->second, i };
 				}
+				seen.emplace(nums[i], i);
 			}
 
 			throw new exception("Didn't find solution");
