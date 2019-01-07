@@ -13,9 +13,11 @@
 // TODO: reference additional headers your program requires here
 #include <algorithm>
 #include <array>
+#include <exception>
 #include <map>
 #include <set>
 #include <string>
+#include <sstream>
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>

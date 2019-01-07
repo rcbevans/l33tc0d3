@@ -157,6 +157,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="1.cpp" />
     <ClCompile Include="709.cpp" />
     <ClCompile Include="771.cpp" />
     <ClCompile Include="929.cpp" />
