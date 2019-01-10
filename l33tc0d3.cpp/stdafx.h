@@ -13,6 +13,7 @@
 // TODO: reference additional headers your program requires here
 #include <algorithm>
 #include <array>
+#include <deque>
 #include <exception>
 #include <map>
 #include <set>

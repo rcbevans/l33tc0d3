@@ -91,10 +91,10 @@ namespace l33tc0d3cpp
 		};
 	};
 
-	TEST_CLASS(TwoSum)
+	TEST_CLASS(UniqueMorse)
 	{
 	public:
-		TwoSum() : _solution() {};
+		UniqueMorse() : _solution() {};
 
 		TEST_METHOD(Example1)
 		{
