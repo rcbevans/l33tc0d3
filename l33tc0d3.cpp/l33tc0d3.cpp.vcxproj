@@ -162,8 +162,10 @@
     <ClCompile Include="709.cpp" />
     <ClCompile Include="771.cpp" />
     <ClCompile Include="804.cpp" />
+    <ClCompile Include="832.cpp" />
     <ClCompile Include="905.cpp" />
     <ClCompile Include="929.cpp" />
+    <ClCompile Include="965.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
